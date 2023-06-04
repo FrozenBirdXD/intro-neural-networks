@@ -5,19 +5,19 @@ var nav2 = document.getElementById('nav2');
 var nav3 = document.getElementById('nav3');
 
 nav0.addEventListener('click', function () {
-    window.location.href = '../index.html';
+    window.location.href = 'index.html';
 });
 
 nav1.addEventListener('click', function () {
-    window.location.href = '../html/netz1.html';
+    window.location.href = 'netz1.html';
 });
 
 nav2.addEventListener('click', function () {
-    window.location.href = '../html/netz2.html';
+    window.location.href = 'netz2.html';
 });
 
 nav3.addEventListener('click', function () {
-    window.location.href = '../html/netz3.html';
+    window.location.href = 'netz3.html';
 });
 
 // Define the number of layers and neurons in each layer

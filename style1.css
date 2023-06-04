@@ -5,7 +5,6 @@
     color: white;
 }
 
-/* Increase the font size of the <h1> element */
 .header h1 {
     font-size: 40px;
 }
@@ -64,6 +63,29 @@
         float: none;
         width: 100%;
     }
+}
+
+#neural-network {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.layer {
+  display: flex;
+  align-items: center;
+}
+
+.neuron {
+  width: 30px;
+  height: 30px;
+  background-color: #1abc9c;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 40px;
+  position: relative;
 }
 
 .square1 {
@@ -170,4 +192,17 @@
     width: 40px;
     height: auto;
     margin-left: 60px;
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+}
+
+.labels h5 {
+    margin-right: 17px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
