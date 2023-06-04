@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Präsentation AI - interaktiv</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+	</style>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+	<div class="header">
+		<h1>Welcome to my Presentation about AI</h1>
+		<p>Here is an introduction to artificial neural networks:</p>
+	</div>
+
+	<div class="navbar">
+		<a href="#" id="nav0">Home</a>
+		<a href="#" id="nav1">Netz 1</a>
+		<a href="#" id="nav2">Netz 2</a>
+		<a href="#" id="nav3">Netz 3</a>
+	</div>
+
+	<div class="row">
+		<div class="side">
+			<h3>Felix Neuron</h3>
+			<h4>Inputs</h4>
+		</div>
+		<div class="main">
+
+			<div class="neuron-square">
+				<img src="../assets/felix.png" alt="Felix" class="Felix">
+			</div>
+			<canvas id="lines-canvas"></canvas>
+
+
+			<div class="squares-container">
+				<div class="square1" onclick="toggleSquare(this)">
+					<span class="status-text">Aus</span>
+				</div>
+				<div class="square2" onclick="toggleSquare(this)">
+					<span class="status-text">Aus</span>
+				</div>
+				<div class="square3" onclick="toggleSquare(this)">
+					<span class="status-text">Aus</span>
+				</div>
+				<div class="square4" onclick="toggleSquare(this)">
+					<span class="status-text">Aus</span>
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+
+	<script src="../javascript/script.js"></script>
+</body>
+
+</html>
