@@ -1,0 +1,173 @@
+.header {
+    padding: 80px;
+    text-align: left;
+    background: #1abc9c;
+    color: white;
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
+
+.row .side h3 {
+    text-align: right;
+}
+
+.row .side h4 {
+    margin-top: 130px;
+    text-align: right;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.square1 {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    user-select: none;
+    /* Disable text selection */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    position: relative;
+    border-radius: 20%;
+    border: 2px solid #000;
+}
+
+.square2 {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    user-select: none;
+    /* Disable text selection */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    position: relative;
+    border-radius: 20%;
+    border: 2px solid #000;
+}
+
+.square3 {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    user-select: none;
+    /* Disable text selection */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    position: relative;
+    border-radius: 20%;
+    border: 2px solid #000;
+}
+
+.square4 {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    user-select: none;
+    /* Disable text selection */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    position: relative;
+    border-radius: 20%;
+    border: 2px solid #000;
+}
+
+.square.on {
+    background-color: #f00;
+}
+
+.neuron-square {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    margin-left: 90px;
+    position: relative;
+    z-index: 1;
+    border-radius: 45%;
+    border: 2px solid #000;
+}
+
+#lines-canvas {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+}
+
+.Felix {
+    width: 40px;
+    height: auto;
+    margin-left: 60px;
+}
