@@ -27,7 +27,51 @@
 		<a href="#" id="nav3">Netz 3</a>
 	</div>
 
-	<div id="neural-network"></div>
+	<div class="row">
+		<div class="side">
+			<h3>Felix Neuron</h3>
+			<h4 id="middle-layer">Mittel Schicht</h4>
+			<h4 id="inputs">Inputs</h4>
+		</div>
+		<div class="main">
+
+			<div class="neuron-middle-container">
+				<div class="neuron-output">
+					<img src="felix.png" alt="Felix" class="Felix">
+				</div>
+				<div class="neuron-middle1"></div>
+				<div class="neuron-middle2"></div>
+				<div class="neuron-middle3"></div>
+			</div>
+
+			<canvas id="lines-canvas1"></canvas>
+			<canvas id="lines-canvas2"></canvas>
+			<canvas id="lines-canvas3"></canvas>
+			<canvas id="lines-canvas4"></canvas>
+			<canvas id="lines-canvas5"></canvas>
+
+			<div class="squares-container">
+				<div class="square1" onclick="toggleSquare(this)">
+					<span class="status-text">Aus</span>
+				</div>
+				<div class="square2" onclick="toggleSquare(this)">
+					<span class="status-text">Aus</span>
+				</div>
+				<div class="square3" onclick="toggleSquare(this)">
+					<span class="status-text">Aus</span>
+				</div>
+				<div class="square4" onclick="toggleSquare(this)">
+					<span class="status-text">Aus</span>
+				</div>
+				<div class="labels">
+					<h5>sit-ups</h5>
+					<h5>push-ups</h5>
+					<h5>squats</h5>
+					<h5>planck</h5>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<script src="script2.js"></script>
 </body>
