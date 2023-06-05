@@ -66,85 +66,21 @@
 }
 
 #neural-network {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .layer {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-.neuron {
-  width: 30px;
-  height: 30px;
-  background-color: #1abc9c;
-  border-radius: 50%;
-  margin-left: 10px;
-  margin-top: 40px;
-  position: relative;
-}
-
-.square1 {
-    width: 50px;
-    height: 50px;
-    background-color: #ddd;
-    display: inline-block;
-    margin-right: 10px;
-    cursor: pointer;
-    text-align: center;
-    line-height: 50px;
-    user-select: none;
-    /* Disable text selection */
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    position: relative;
-    border-radius: 20%;
-    border: 2px solid #000;
-}
-
-.square2 {
-    width: 50px;
-    height: 50px;
-    background-color: #ddd;
-    display: inline-block;
-    margin-right: 10px;
-    cursor: pointer;
-    text-align: center;
-    line-height: 50px;
-    user-select: none;
-    /* Disable text selection */
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    position: relative;
-    border-radius: 20%;
-    border: 2px solid #000;
-}
-
-.square3 {
-    width: 50px;
-    height: 50px;
-    background-color: #ddd;
-    display: inline-block;
-    margin-right: 10px;
-    cursor: pointer;
-    text-align: center;
-    line-height: 50px;
-    user-select: none;
-    /* Disable text selection */
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    position: relative;
-    border-radius: 20%;
-    border: 2px solid #000;
-}
-
+.square1,
+.square2,
+.square3,
 .square4 {
     width: 50px;
     height: 50px;
@@ -163,6 +99,7 @@
     border-radius: 20%;
     border: 2px solid #000;
 }
+
 
 .square.on {
     background-color: #f00;
